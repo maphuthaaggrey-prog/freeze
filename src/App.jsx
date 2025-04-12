@@ -14,7 +14,7 @@ import ArtCovers from './assets/components/ArtCovers';
 import Footer from './assets/components/Footer';
 import About from './assets/pages/About';
 import ScrollToTop from './assets/components/ScrollToTop';
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import { HashRouter as Router, Routes, Route } from 'react-router-dom';
 
 
 function App() {
