@@ -23,13 +23,11 @@ const Portraits = () => {
       </Helmet>
 
       <div className="hero-container">
-        <p className="sub-text" style={{ fontSize: "20px", marginBottom: '1.2em', fontWeight: '800' }}>
+        <p className="sub-text" style={{ fontSize: "27px", marginBottom: '1.2em', fontWeight: '800' }}>
           <img src={arrow} alt="Arrow" /> Portaits
         </p>
         <p className="sub-text">
-          The art covers are made for music projects like singles, albums, and mixtapes. They are used as the main image people see when they play the song.
-          Each design shows the style and feeling of the music. They help grab attention and make the music look more professional and exciting.
-        </p>
+        Drawing people has always been one of my favorite ways to express myself. Every portrait I create is my way of capturing the emotions, personality, and story behind each face. It's not just about getting the details right — it's about bringing each person to life on paper.  </p>
 
         <br />
 
