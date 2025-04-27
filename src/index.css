@@ -460,7 +460,8 @@ svg {
   left: 0;
   right: 0;
   bottom: 0;
-  background-color: rgba(0, 0, 0, 0.911);
+  backdrop-filter: blur(29px);
+  background: rgba(12, 12, 12, 0.8); 
   display: flex;
   justify-content: center;
   align-items: center;
@@ -468,10 +469,9 @@ svg {
 }
 
 .modal-image {
-  max-width: 90%;
+  max-width: 100%;
   transition: all .3s ease-in-out;
-  max-height: 90%;
-  border-radius: 6px;
+  max-height: 95%;
   box-shadow: 0 4px 15px rgba(0, 0, 0, 0.5);
 }
 .about {
@@ -781,7 +781,7 @@ border-bottom: 3px solid hsl(273, 65%, 51%);
   gap: 5em
 }
 .footer-cont form {
-  max-width: 500px;
+  max-width: 530px;
 }
 
 .about-image {
@@ -795,6 +795,13 @@ border-bottom: 3px solid hsl(273, 65%, 51%);
 .about p {
  margin-top: 0;
  display: block;
+}
+.modal-image {
+  max-width: 100%;
+  transition: all .3s ease-in-out;
+  max-height: 85%;
+  border-radius: 2px;
+
 }
 
 }

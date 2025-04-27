@@ -6,7 +6,7 @@ export const music = [
         artist: "Freeze Linet",
         genre: "Hip Hop/Trap",
         duration: 3.5,
-        image: "https://api.geniuxmusic.com/geniuxmusic/api/media/arts/medium/?file_name=6091973bc15059.02018528(music.geniux.co.za).png"
+        image: "https://i.scdn.co/image/ab67616d0000b273557d14ac5a04bbc2b47af06b"
 
     },
     {

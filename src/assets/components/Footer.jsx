@@ -158,9 +158,9 @@ const Footer = () => {
 
           {sendMsg && <p className="send-msg">{sendMsg}</p>}
           <div className="social-icons">
-                       <a href="https://facebook.com/maphutha.agree" target="_blank"><img src={gitHub} className='icon'/></a>
-                       <a href="mailto:maphuthaaggrey83@gmail.com"><img src={gMail} className='icon'/></a>
-                       <a href="https://wa.link/hxnh0o" target="_blank"><img src={whatsapp} className='icon'/></a>
+                       <a href="https://www.facebook.com/freezelinett" target="_blank"><img src={gitHub} className='icon'/></a>
+                       <a href="mailto:maphuthangwato1@gmail.com"><img src={gMail} className='icon'/></a>
+                       <a href="https://wa.link/ctv5dv" target="_blank"><img src={whatsapp} className='icon'/></a>
                     </div>
         </div>
         <div className="footer-bottom">

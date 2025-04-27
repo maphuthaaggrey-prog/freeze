@@ -10,10 +10,11 @@ const Designs = () => {
         setCategories(categoryData); 
     }, []);
     return (
-        <>
-                 <Helmet>
-                      <title>Designs</title>
-                </Helmet>
+        <>       
+        <Helmet>
+             <title>Designs</title>
+        </Helmet>
+
             <div className="hero-container">
                 <p className="sub-text" style={{ fontSize: "20px", marginBottom: '.5em', fontWeight: '800' }}><img src={arrow}></img>Categories</p>
                 <p className="sub-text" style={{ marginBottom: '1.2em'}} >Browse by Category and See What I've Designed</p>
@@ -37,6 +38,8 @@ const Designs = () => {
                                 ? `/soccer-posters`
                                 : project.type === "21st Posters"
                                 ? `/21st-posters`
+                                : project.type === "Portraits"
+                                ? `/portraits`
                                 : "/"
                             }
                             key={index}

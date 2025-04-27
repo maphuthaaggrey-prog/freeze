@@ -1,6 +1,8 @@
 import merch from '../images/RESPECT MY HUSTLE MERCH/merch.jpg'
 import merch1 from '../images/RESPECT MY HUSTLE MERCH/FRONT  AND BACK.jpg'
 import merch2 from '../images/RESPECT MY HUSTLE MERCH/FIRST DESIGN.jpg'
+import merch3 from '../images/RESPECT MY HUSTLE MERCH/WhatsApp Image 2025-04-26 at 12.38.20_e850bb0a.jpg'
+import merch4 from '../images/RESPECT MY HUSTLE MERCH/WhatsApp Image 2025-04-26 at 12.38.21_a1c3bf7b.jpg'
 
 import logos from '../images/LOGOS 2025/POPPY DELICIOUS ARTCHAR.jpg'
 import logo1 from '../images/LOGOS 2025/BCC BROTHERS CONSTRUCTION.jpg'
@@ -19,6 +21,8 @@ import logo13 from '../images/LOGOS 2025/PLAITING BEAUTY STUDIO.jpg'
 import logo14 from '../images/LOGOS 2025/R&R EMPIRE.jpg'
 import logo15 from '../images/LOGOS 2025/RESPECT MY HUSTLE.jpg'
 import logo16 from '../images/LOGOS 2025/THEMOTSO CLEANING COMPANY.jpg'
+import logo17 from '../images/LOGOS 2025/3d glass window logo mockup copy.jpg'
+import logo18 from '../images/LOGOS 2025/AnkelStore Logo.jpg'
 
 import eventPosters from '../images/EVENT POSTERS/top.jpg'
 import eventPoster1 from '../images/EVENT POSTERS/20230325_230535.jpg'
@@ -65,11 +69,17 @@ import artCover2 from '../images/ART COVER/IMG-20240316-WA0045.jpg'
 
 import twenystposters from '../images/21ST POSTERS/21ST-POSTER-FOR-DELIWE.jpg'
 import twenystposter1 from '../images/21ST POSTERS/21st-Poster.jpg'
-import twenystposter2 from '../images/21ST POSTERS/20231105_012731.jpg'
 import twenystposter3 from '../images/21ST POSTERS/20231115_195506.jpg'
 import twenystposter4 from '../images/21ST POSTERS/20240731_220030.jpg'
 import twenystposter5 from '../images/21ST POSTERS/received_6539207959527335.jpg'
 
+import Portraits from '../images/PORTRAITS/SENAMILE.jpg'
+import Portrait1 from '../images/PORTRAITS/MAPENA.jpg'
+import Portrait2 from '../images/PORTRAITS/momo.jpg'
+import Portrait3 from '../images/PORTRAITS/SHANDESH.jpg'
+import Portrait4 from '../images/PORTRAITS/kat.jpg'
+import Portrait5 from '../images/PORTRAITS/KHOMOTSO.jpg'
+import Portrait6 from '../images/PORTRAITS/levandal.jpg'
 
 
 
@@ -419,7 +429,72 @@ export const posters = [
         image: businessPoster9,
         type: "Business Posters",
     },
+    {
+        id: 58,
+        project: "Portraits",
+        image: Portraits,
+        type: "Portraits",
+    },
+    {
+        id: 59,
+        project: "Portraits",
+        image: Portrait1,
+        type: "Portraits",
+    },
+    {
+        id: 60,
+        project: "Portraits",
+        image: Portrait2,
+        type: "Portraits",
+    },
+    {
+        id: 61,
+        project: "Portraits",
+        image: Portrait3,
+        type: "Portraits",
+    },
+    {
+        id: 62,
+        project: "Portraits",
+        image: Portrait4,
+        type: "Portraits",
+    },
+    {
+        id: 63,
+        project: "Portraits",
+        image: Portrait5,
+        type: "Portraits",
+    },
+    {
+        id: 64,
+        project: "Portraits",
+        image: Portrait6,
+        type: "Portraits",
+    },
+    {
+        id: 65,
+        project: "21st Posters",
+        image: logo17,
+        type: "Logo",
+    },
+    {
+        id: 66,
+        project: "21st Posters",
+        image: logo18,
+        type: "Logo",
+    },
+    {
+        id: 67,
+        project: "Respect My Hustle",
+        image: merch3,
+        type: "Merch",
 
+    },
+    {
+        id: 68,
+        project: "Respect My Hustle",
+        image: merch4,
+        type: "Merch",
 
-
+    },
 ]

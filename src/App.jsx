@@ -9,17 +9,14 @@ import Work from './assets/components/Work';
 import Designs from './assets/components/Designs';
 import BirthdayPosters from './assets/components/21stPosters'
 import SoccerPosters from './assets/components/SoccerPosters'
+import Portraits from './assets/components/Potraits';
 import BookingPosters from './assets/components/BookingPosters'
 import ArtCovers from './assets/components/ArtCovers';
 import Footer from './assets/components/Footer';
 import About from './assets/pages/About';
 import ScrollToTop from './assets/components/ScrollToTop';
 import { HashRouter as Router, Routes, Route } from 'react-router-dom';
-
-
 function App() {
-
-
   return (
     <>
     <Router>
@@ -37,6 +34,7 @@ function App() {
         <Route path="/logos" element={<Logos />} />
         <Route path="/music" element={<Music />} />
         <Route path="/work" element={<Work />} />
+        <Route path="/portraits" element={<Portraits />} />
         <Route path="/designs" element={<Designs />} />
         <Route path="/about" element={<About />} />
       </Routes>
@@ -47,5 +45,4 @@ function App() {
     </>
   )
 }
-
 export default App

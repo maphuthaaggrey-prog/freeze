@@ -6,6 +6,7 @@ import businessPoster from '../images/BUSINESS POSTER/marvelous.jpg'
 import bookingPosters from '../images/BOOKINGS POSTER/IMG-20240112-WA0037.jpg'
 import artCovers from '../images/ART COVER/01JD0MNJVQT5C3S9ZXG42ZD94R.jpg'
 import twenystposters from '../images/21ST POSTERS/21ST-POSTER-FOR-DELIWE.jpg'
+import Portraits from '../images/PORTRAITS/SHANDESH.jpg'
 
 export const categories = [
     {
@@ -66,6 +67,13 @@ export const categories = [
         image: twenystposters,
         type: "21st Posters",
         description: `Posters we made for epic 21st birthday parties. Perfect for celebrations`,
+    },
+    {
+        id: 9,
+        project: "Portraits",
+        image: Portraits,
+        type: "Portraits",
+        description: `Sketches drawn from scratch with the use of pencils and papers`,
     },
 
 ]

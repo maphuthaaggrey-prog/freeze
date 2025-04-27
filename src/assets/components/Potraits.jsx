@@ -1,11 +1,12 @@
 import { useState } from 'react';
-import { posters } from '../data/posters';
+import { posters } from '../data/posters'; 
 import arrow from '../images/right arrow.png';
 import { Helmet } from 'react-helmet';
 
-const BPosters = () => {
+
+const Portraits = () => {
   const [selectedImage, setSelectedImage] = useState(null);
-  const bPosters = posters.filter(poster => poster.type === "21st Posters");
+  const portraits = posters.filter(poster => poster.type === "Portraits");
 
   const handleImageClick = (image) => {
     setSelectedImage(image);
@@ -18,23 +19,22 @@ const BPosters = () => {
   return (
     <>
       <Helmet>
-        <title>21st Posters</title>
+        <title>Portaits</title>
       </Helmet>
 
       <div className="hero-container">
         <p className="sub-text" style={{ fontSize: "20px", marginBottom: '1.2em', fontWeight: '800' }}>
-          <img src={arrow} alt="Arrow" /> 21st Posters
+          <img src={arrow} alt="Arrow" /> Portaits
         </p>
         <p className="sub-text">
-          This design celebrates the special moment of turning 21. It feels exciting, joyful, and full of life.
-          The design captures the happiness of the event and makes the birthday feel even more memorable.
-          It brings out the fun and importance of the day.
+          The art covers are made for music projects like singles, albums, and mixtapes. They are used as the main image people see when they play the song.
+          Each design shows the style and feeling of the music. They help grab attention and make the music look more professional and exciting.
         </p>
-        
+
         <br />
 
         <div className="project-info">
-          {bPosters.map((poster, index) => (
+          {portraits.map((poster, index) => (
             <div key={index} className="project">
               <img
                 src={poster.image}
@@ -47,17 +47,13 @@ const BPosters = () => {
           ))}
         </div>
       </div>
-
-
       {selectedImage && (
         <div className="modal" onClick={handleClose}>
-          <img src={selectedImage} alt="Full Size Poster" className="modal-image"  />
-
+          <img src={selectedImage} alt="Full Size" className="modal-image" />
         </div>
-
       )}
     </>
   );
 };
 
-export default BPosters;
+export default Portraits;
