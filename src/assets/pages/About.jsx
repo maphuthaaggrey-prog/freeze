@@ -38,7 +38,7 @@ const About = () => {
 
         </p>
     <div className="developer">
-        <button>Powered. by<a href="/"><p className="dev-logo"><span>Aa</span>ven</p></a></button>
+        <button>Powered. by<a href="https://maphuthaaggrey-prog.github.io/aaven/"><p className="dev-logo"><span>Aa</span>ven</p></a></button>
     </div>
     </div>
     </>
