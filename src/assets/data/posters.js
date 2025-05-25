@@ -38,10 +38,15 @@ import eventPoster10 from '../images/EVENT POSTERS/IMG-20240316-WA0046.jpg'
 import eventPoster11 from '../images/EVENT POSTERS/IMG-20241023-WA0082.jpg'
 import eventPoster12 from '../images/EVENT POSTERS/PHASE-1.jpg'
 import eventPoster13 from '../images/EVENT POSTERS/Sunday Chillas .jpg'
+import eventPoster14 from '../images/EVENT POSTERS/33.jpg'
+import eventPoster15 from '../images/EVENT POSTERS/WhatsApp Image 2025-05-21 at 12.09.21_5022d963.jpg'
+import eventPoster16 from '../images/EVENT POSTERS/WhatsApp Image 2025-05-21 at 12.09.21_88e28a05.jpg'
 
 import soccerPoster from '../images/SOCCER POSTER/matchposter.jpg'
 import soccerPoster1 from '../images/SOCCER POSTER/20240725_203723.jpg'
 import soccerPoster2 from '../images/SOCCER POSTER/IMG-20241003-WA0172.jpg'
+import soccerPoster3 from '../images/SOCCER POSTER/32.jpg'
+import soccerPoster4 from '../images/SOCCER POSTER/_c675588f.jpg'
 
 import businessPoster from '../images/BUSINESS POSTER/marvelous.jpg'
 import businessPoster1 from '../images/BUSINESS POSTER/20230202_215632_100112.jpg'
@@ -496,5 +501,35 @@ export const posters = [
         image: merch4,
         type: "Merch",
 
+    },
+    {
+        id: 69,
+        project: "Event Posters",
+        image: eventPoster14,
+        type: "Event Posters",
+    },
+    {
+        id: 70,
+        project: "Event Posters",
+        image: eventPoster15,
+        type: "Event Posters",
+    },
+    {
+        id: 71,
+        project: "Event Posters",
+        image: eventPoster16,
+        type: "Event Posters",
+    },
+    {
+        id: 72,
+        project: "Soccer Posters",
+        image: soccerPoster3,
+        type: "Soccer Posters",
+    },
+    {
+        id: 73,
+        project: "Soccer Posters",
+        image: soccerPoster4,
+        type: "Soccer Posters",
     },
 ]
