@@ -28,7 +28,7 @@ const Header = () => {
                         <li onClick={toggleMenu}><Link to="/designs">Designs</Link></li>
                         <li onClick={toggleMenu}><Link to="/music">Music</Link></li>
                         <li onClick={toggleMenu}><Link to="/about">Respect My Hustle</Link></li>
-                        <li onClick={toggleMenu}><a href="#lets-talk">Let's Talk</a></li>
+                        <li onClick={toggleMenu}><Link to="/contact">Contact Us</Link></li>
                     </ul>
                 </nav>
                     <button className="menu-icon" onClick={toggleMenu}>

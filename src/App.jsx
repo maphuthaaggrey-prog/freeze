@@ -14,6 +14,7 @@ import BookingPosters from './assets/components/BookingPosters'
 import ArtCovers from './assets/components/ArtCovers';
 import Footer from './assets/components/Footer';
 import About from './assets/pages/About';
+import Contact from './assets/components/Contact'
 import ScrollToTop from './assets/components/ScrollToTop';
 import { HashRouter as Router, Routes, Route } from 'react-router-dom';
 function App() {
@@ -37,6 +38,8 @@ function App() {
         <Route path="/portraits" element={<Portraits />} />
         <Route path="/designs" element={<Designs />} />
         <Route path="/about" element={<About />} />
+        <Route path="/contact" element={<Contact />} />
+
       </Routes>
       <section id="lets-talk">
         <Footer />

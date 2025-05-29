@@ -480,8 +480,8 @@ svg {
 }
 footer {
   background-color: rgb(17, 17, 17);
-  padding: 3em;
   margin-top: 8em;
+  padding-top: 4em;
   padding-bottom: 1em;
 }
 @keyframes pulse {
@@ -565,18 +565,31 @@ font-size: 11px;
 margin-top: 4px;
 }
 .send-message {
-  font-size: 17px;
+  font-size: 20px;
+  text-align: center;
   font-weight: 700;
+}
+.emailadr {
+  margin: 1em auto 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1em
 }
 .footer-cont fieldset:last-of-type {
   border-bottom: none;
 }
-
+.footer-cont form h1 {
+  text-align: center;
+  font-size: 30px;
+  margin-top: .6em;
+  margin-bottom: .6em;
+}
 .footer-cont label {
   display: block;
   font-size: 13px;
   font-weight: 500;
-  margin: 0.5rem 0;
+  margin: 1.3rem 0;
 }
 
 footer .social-icons {
@@ -662,6 +675,71 @@ border-bottom: 3px solid hsl(273, 65%, 51%);
   transition: all .2s ease-in-out;
   cursor: pointer;
 }
+.text004 {
+  color: var(--primary);
+  font-size: 50px;
+  font-weight: 400;
+}
+.footerlogo {
+  width: 60px;
+}
+.footertext {
+  margin-top: 1em;
+  color: #dbdbdb;
+  font-size: 13px;
+}
+.card005 {
+  display: flex;
+  align-items: center;
+  margin-bottom: 1em;
+  margin-top: 1em;
+  border-radius: 10px;
+}
+
+.card005 .icon svg {
+  color: white;
+  width: 30px;
+
+}
+.card005 .details {
+  margin-left: 1em;
+  height: auto;
+  padding-left: 1em;
+}
+.card005 .details p:nth-of-type(2) {
+  color: grey;
+  font-size: 11px
+}
+.explore h1, section h1 {
+  font-size: 23px;
+}
+footer .navbar {
+  margin-top: 8em;
+}
+.copyright {
+  align-content: end
+}
+.explore p, .copyright p {
+  font-size: 14px;
+  color: grey;
+  margin: .5em 0 .5em;
+}
+.explore p a {
+  font-size: 12px;
+  color: grey;
+}
+.copyright {
+  width: 90%;
+  margin: auto;
+}
+footer .wrapping {
+  display: grid;
+  padding: 0;
+  width: 90%;
+  gap: 3em;
+  margin: 0 auto 1em;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+}
 
 @media (min-width: 550px) {
   .about-image {
@@ -681,6 +759,9 @@ border-bottom: 3px solid hsl(273, 65%, 51%);
 @media (min-width: 812px) {
   .menu-icon {
      display: none;  
+  }
+  footer .wrapping {
+    width: 70%;
   }
   section {
       scroll-margin-top: 85px; 
@@ -781,7 +862,7 @@ border-bottom: 3px solid hsl(273, 65%, 51%);
   gap: 5em
 }
 .footer-cont form {
-  max-width: 530px;
+  max-width: 700px;
 }
 
 .about-image {
@@ -802,6 +883,10 @@ border-bottom: 3px solid hsl(273, 65%, 51%);
   max-height: 85%;
   border-radius: 2px;
 
+}
+.copyright {
+  width: 70%;
+  margin: auto;
 }
 
 }
