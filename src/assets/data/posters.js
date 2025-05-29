@@ -46,7 +46,7 @@ import soccerPoster from '../images/SOCCER POSTER/matchposter.jpg'
 import soccerPoster1 from '../images/SOCCER POSTER/20240725_203723.jpg'
 import soccerPoster2 from '../images/SOCCER POSTER/IMG-20241003-WA0172.jpg'
 import soccerPoster3 from '../images/SOCCER POSTER/32.jpg'
-import soccerPoster4 from '../images/SOCCER POSTER/_c675588f.jpg'
+import soccerPoster4 from '../images/SOCCER POSTER/c675588f.jpg'
 
 import businessPoster from '../images/BUSINESS POSTER/marvelous.jpg'
 import businessPoster1 from '../images/BUSINESS POSTER/20230202_215632_100112.jpg'
