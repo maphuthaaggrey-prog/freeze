@@ -14,7 +14,7 @@ const Header = () => {
                 
                 <nav >
                 <div>
-                    <a href="https://maphuthaaggrey-prog.github.io/freeze/"><img className='logo' src={Logo}></img></a>
+                    <Link to="/"><img className='logo' src={Logo}></img></Link>
                 </div>
                     <ul className={menuOpen ? "nav ul open" : ""}>
                         <li>

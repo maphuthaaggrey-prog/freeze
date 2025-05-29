@@ -6,8 +6,9 @@
   <title>Respect My Hustle</title>
   <meta property="og:image" content="https://www.respectmyhustle.co.za/FRAME.png">
   <script>
-    sessionStorage.redirect = location.pathname;
-    location.href = '/';
+    const redirectTo = '/' + location.pathname + location.search + location.hash;
+    sessionStorage.redirect = redirectTo;
+    window.location.replace('/');
   </script>
 </head>
 <body>
