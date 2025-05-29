@@ -2,84 +2,83 @@ import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 
 const ContactComponent = () => {
-    const [loading, setLoading] = useState(false);
-    const [sendMsg, setSendMsg] = useState("");
-    const [errors, setErrors] = useState({});
-
-    const contactScriptURL =
-        "https://script.google.com/macros/s/AKfycbxliASTLxM9LVwXMQfc7yV0llY5C2VZHV9pV2052tPBm-ajFdTbe8cFqAMz_s2zDnvT/exec"; 
-
-    const handleSubmit = async (e) => {
+    const [formData, setFormData] = useState({
+        yourName: '',
+        phoneNumber: '',
+        email: '',
+        message: '',
+      });
+    
+      const [loading, setLoading] = useState(false);
+      const [sendMsg, setSendMsg] = useState("");
+      const [errors, setErrors] = useState({});
+    
+      const contactScriptURL =
+        "https://script.google.com/macros/s/AKfycbzvgMjDKX6fs1MXEJ1jw5ktF0ZAufJpJ95XQ6oYZwfxPOJPT4fSVCudfv-4c901SHj2Wg/exec";
+    
+      const handleSubmit = async (e) => {
         e.preventDefault();
-
-        const formData = new FormData(e.target);
-        const firstName = formData.get("first-name");
-        const email = formData.get("email");
-        const phone = formData.get("phone");
-        const message = formData.get("message");
-
-        // Validation
+    
+        const { yourName, phoneNumber, email, message } = formData;
+    
         const newErrors = {};
-        if (!firstName.trim()) newErrors.firstName = "Name is required!";
+        if (!yourName.trim()) newErrors.yourName = "Name is required!";
         if (!email.match(/^[^ ]+@[^ ]+\.[a-z]{2,3}$/))
-            newErrors.email = "Valid email is required!";
-        if (!phone.match(/^[0-9]{10}$/))
-            newErrors.phone = "A valid 10-digit phone number is required.";
+          newErrors.email = "Valid email is required!";
+        if (!phoneNumber.match(/^[0-9]{10}$/))
+          newErrors.phoneNumber = "A valid 10-digit phone number is required.";
         if (!message.trim()) newErrors.message = "Message is required.";
-
+    
         if (Object.keys(newErrors).length > 0) {
-            setErrors(newErrors);
-            return;
+          setErrors(newErrors);
+          return;
         }
-
+    
         setLoading(true);
         setErrors({});
-
         try {
-            const response = await fetch(contactScriptURL, {
-                method: "POST",
-                body: new URLSearchParams(formData),
+          const data = new URLSearchParams();
+          for (const [key, value] of Object.entries(formData)) {
+            data.append(key, value);
+          }
+    
+          const response = await fetch(contactScriptURL, {
+            method: 'POST',
+            body: data,
+          });
+    
+          if (response.ok) {
+            setSendMsg('Thank you! Your message has been submitted.');
+            setFormData({
+              yourName: '',
+              phoneNumber: '',
+              email: '',
+              message: '',
             });
-
-            if (response.ok) {
-                setSendMsg("Thank You For Contacting Us!");
-                e.target.reset();
-            } else {
-                throw new Error("Network response was not ok.");
-            }
+          } else {
+            throw new Error('Submission failed');
+          }
         } catch (error) {
-            console.error("Error!", error.message);
-            setSendMsg("Thank You For Contacting Us!");
-            e.target.reset();
+          console.error(error);
+          setSendMsg('Something went wrong. Please try again later.');
         } finally {
-            setLoading(false);
-            setTimeout(() => setSendMsg(""), 5000);
+          setLoading(false);
+          setTimeout(() => setSendMsg(''), 5000);
         }
-    };
-
-    const handleGoBack = () => {
-        window.history.back(); // Navigate to the previous page
-    };
-
+      };
     return (
         <main id="song-wrap">
-            <div className="navbar">
-                <a href="#close" className="back" id="back-button" onClick={handleGoBack}>
-                    <i className="fa-solid fa-arrow-left"></i>
-                </a>
-                <i>
-                </i>
-            </div>
             
             <div className="footer-cont" id="footer-cont">
                 <form
                     className="footer"
+           
                     onSubmit={handleSubmit}
                     action={contactScriptURL}
                     name="message-to-google-sheet"
                     method="POST"
                 >
-                    <h1>Contact Us</h1>
+                    <h1>Contact us</h1>
                     <p className="send-message">We’d love to help you, please do get in touch.</p>
                     <a href="mailto:maphuthangwato1@gmail.com" className='emailadr'>
                     <svg fill="#ffffff" height="27px" width="27px" version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" 
@@ -98,6 +97,8 @@ const ContactComponent = () => {
                                 name="first-name"
                                 type="text"
                                 placeholder="Enter name"
+                                value={formData.yourName}
+                                onChange={(e) => setFormData({ ...formData, yourName: e.target.value })}
                             />
                             {errors.firstName && (
                                 <p className="error-message">{errors.firstName}</p>
@@ -111,6 +112,8 @@ const ContactComponent = () => {
                                 name="email"
                                 type="email"
                                 placeholder="Enter email"
+                                value={formData.email}
+                                onChange={(e) => setFormData({ ...formData, email: e.target.value })}
                             />
                             {errors.email && (
                                 <p className="error-message">{errors.email}</p>
@@ -124,6 +127,8 @@ const ContactComponent = () => {
                                 name="phone"
                                 type="tel"
                                 placeholder="0765216787"
+                                value={formData.phoneNumber}
+                                onChange={(e) => setFormData({ ...formData, phoneNumber: e.target.value })}
                             />
                             {errors.phone && (
                                 <p className="error-message">{errors.phone}</p>
@@ -138,6 +143,8 @@ const ContactComponent = () => {
                                 rows="4"
                                 cols="10"
                                 placeholder="Your Enquiry"
+                                value={formData.message}
+                                onChange={(e) => setFormData({ ...formData, message: e.target.value })}
                             />
                             {errors.message && (
                                 <p className="error-message">{errors.message}</p>
