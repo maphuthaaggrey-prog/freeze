@@ -69,7 +69,7 @@ const Footer = () => {
 
         </div>
         <div className="copyright">
-            <p>Created By Aaven Agency</p>
+            <p><a href="https://www.aavenagency.co.za" target='_blank' rel="noopener noreferrer">Created By Aaven Agency</a></p>
             </div>
     
     </footer> );
