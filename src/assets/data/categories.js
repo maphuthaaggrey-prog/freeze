@@ -4,9 +4,9 @@ import eventPosters from '../images/EVENT POSTERS/top.jpg'
 import soccerPoster from '../images/SOCCER POSTER/matchposter.jpg'
 import businessPoster from '../images/BUSINESS POSTER/marvelous.jpg'
 import bookingPosters from '../images/BOOKINGS POSTER/IMG-20240112-WA0037.jpg'
-import artCovers from '../images/ART COVER/01JD0MNJVQT5C3S9ZXG42ZD94R.jpg'
+import artCovers from '../images/ART COVER/mygod.jpg'
 import twenystposters from '../images/21ST POSTERS/21ST-POSTER-FOR-DELIWE.jpg'
-import Portraits from '../images/PORTRAITS/SHANDESH.jpg'
+import Portraits from '../images/PORTRAITS/IMG-20250723-WA0032.jpg'
 
 export const categories = [
     {
