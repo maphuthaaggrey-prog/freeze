@@ -29,8 +29,7 @@ import eventPoster7 from '../images/EVENT POSTERS/IMG-20240316-WA0035.jpg'
 import eventPoster10 from '../images/EVENT POSTERS/IMG-20240316-WA0046.jpg'
 import eventPoster11 from '../images/EVENT POSTERS/IMG-20241023-WA0082.jpg'
 import eventPoster12 from '../images/EVENT POSTERS/PHASE-1.jpg'
-import eventPoster15 from '../images/EVENT POSTERS/WhatsApp Image 2025-05-21 at 12.09.21_5022d963.jpg'
-import eventPoster16 from '../images/EVENT POSTERS/WhatsApp Image 2025-05-21 at 12.09.21_88e28a05.jpg'
+
 import eventPoster17 from '../images/EVENT POSTERS/eventNEW.jpeg'
 import eventPoster18 from '../images/EVENT POSTERS/eventNEW2.jpeg'
 import soccerPoster1 from '../images/SOCCER POSTER/20240725_203723.jpg'
@@ -491,18 +490,7 @@ export const posters = [
 
     },
 
-    {
-        id: 70,
-        project: "Event Posters",
-        image: eventPoster15,
-        type: "Event Posters",
-    },
-    {
-        id: 71,
-        project: "Event Posters",
-        image: eventPoster16,
-        type: "Event Posters",
-    },
+
     {
         id: 72,
         project: "Soccer Posters",
