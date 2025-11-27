@@ -31,6 +31,8 @@ import eventPoster11 from '../images/EVENT POSTERS/IMG-20241023-WA0082.jpg'
 import eventPoster12 from '../images/EVENT POSTERS/PHASE-1.jpg'
 import eventPoster15 from '../images/EVENT POSTERS/WhatsApp Image 2025-05-21 at 12.09.21_5022d963.jpg'
 import eventPoster16 from '../images/EVENT POSTERS/WhatsApp Image 2025-05-21 at 12.09.21_88e28a05.jpg'
+import eventPoster17 from '../images/EVENT POSTERS/eventNEW.jpeg'
+import eventPoster18 from '../images/EVENT POSTERS/eventNEW2.jpeg'
 import soccerPoster1 from '../images/SOCCER POSTER/20240725_203723.jpg'
 import soccerPoster2 from '../images/SOCCER POSTER/IMG-20241003-WA0172.jpg'
 import soccerPoster3 from '../images/SOCCER POSTER/32.jpg'
@@ -44,7 +46,7 @@ import businessPoster5 from '../images/BUSINESS POSTER/IMG-20240211-WA0011.jpg'
 import businessPoster6 from '../images/BUSINESS POSTER/IMG-20241117-WA0014.jpg'
 import businessPoster7 from '../images/BUSINESS POSTER/MREIKS BAKERY copy.jpg'
 import businessPoster8 from '../images/BUSINESS POSTER/Sesfikile Uber Poster.jpg'
-
+import businessPoster9 from '../images/BUSINESS POSTER/nonhle.jpeg'
 import businessPoster10 from '../images/BUSINESS POSTER/IMG-20250723-WA0024.jpg'
 import businessPoster11 from '../images/BUSINESS POSTER/IMG-20250723-WA0022.jpg'
 
@@ -60,15 +62,20 @@ import artCover1 from '../images/ART COVER/20241110_050427.jpg'
 import artCover2 from '../images/ART COVER/IMG-20240316-WA0045.jpg'
 import artCover3 from '../images/ART COVER/diammakatsa.jpg'
 import artCover4 from '../images/ART COVER/mygod.jpg'
+import artCover5 from '../images/ART COVER/lekompo1.jpeg'
+import artCover6 from '../images/ART COVER/lekompo2.jpeg'
+import artCover7 from '../images/ART COVER/lekompo3.jpeg'
+import artCover8 from '../images/ART COVER/art1.jpeg'
+import artCover9 from '../images/ART COVER/art2.jpeg'
 
 import twenystposters from '../images/21ST POSTERS/21ST-POSTER-FOR-DELIWE.jpg'
 import twenystposter1 from '../images/21ST POSTERS/21st-Poster.jpg'
-import twenystposter3 from '../images/21ST POSTERS/20231115_195506.jpg'
-import twenystposter4 from '../images/21ST POSTERS/20240731_220030.jpg'
+
 
 import Portraits from '../images/PORTRAITS/IMG-20250626-WA0036.jpg'
 import Portrait1 from '../images/PORTRAITS/IMG-20250723-WA0031.jpg'
-
+import Portrait2 from '../images/PORTRAITS/portraitNEW.jpeg'
+import Portrait3 from '../images/PORTRAITS/portraitNEW2.jpeg'
 import Portrait6 from '../images/PORTRAITS/levandal.jpg'
 
 import Portrait8 from '../images/PORTRAITS/IMG-20250723-WA0035.jpg'
@@ -105,6 +112,19 @@ export const posters = [
         project: "Logos",
         image: logos,
         type: "Logo",
+    },
+    
+    {
+        id: 5,
+        project: "Event Posters",
+        image: eventPoster17,
+        type: "Event Posters",
+    },
+    {
+        id: 6,
+        project: "Event Posters",
+        image: eventPoster18,
+        type: "Event Posters",
     },
 
     {
@@ -234,6 +254,12 @@ export const posters = [
         image: eventPoster3,
         type: "Event Posters",
     },
+    {
+        id: 30,
+        project: "Business Posters",
+        image: businessPoster9,
+        type: "Business Posters",
+    },
 
     {
         id: 33,
@@ -334,7 +360,42 @@ export const posters = [
         image: twenystposter1,
         type: "21st Posters",
     },
-
+    {
+        id: 83,
+        project: "Art Covers",
+        image: artCover4,
+        type: "Art Covers",
+    },
+        {
+        id: 57,
+        project: "Art Covers",
+        image: artCover5,
+        type: "Art Covers",
+    },
+    {
+        id: 58,
+        project: "Art Covers",
+        image: artCover6,
+        type: "Art Covers",
+    },
+        {
+        id: 82,
+        project: "Art Covers",
+        image: artCover7,
+        type: "Art Covers",
+    },
+    {
+        id: 60,
+        project: "Art Covers",
+        image: artCover8,
+        type: "Art Covers",
+    },
+    {
+        id: 61,
+        project: "Art Covers",
+        image: artCover9,
+        type: "Art Covers",
+    },
     {
         id: 55,
         project: "Art Covers",
@@ -347,18 +408,10 @@ export const posters = [
         image: artCover2,
         type: "Art Covers",
     },
-    {
-        id: 82,
-        project: "Art Covers",
-        image: artCover3,
-        type: "Art Covers",
-    },
-    {
-        id: 83,
-        project: "Art Covers",
-        image: artCover4,
-        type: "Art Covers",
-    },
+
+
+
+
 
     {
         id: 58,
@@ -370,6 +423,18 @@ export const posters = [
         id: 59,
         project: "Portraits",
         image: Portrait1,
+        type: "Portraits",
+    },
+    {
+        id: 60,
+        project: "Portraits",
+        image: Portrait2,
+        type: "Portraits",
+    },
+    {
+        id: 61,
+        project: "Portraits",
+        image: Portrait3,
         type: "Portraits",
     },
 
