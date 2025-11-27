@@ -10,7 +10,7 @@ const Home = () => {
                   </Helmet>
             <Hero />
             <Work />
-            <Music />
+
          </> 
     );
 }
