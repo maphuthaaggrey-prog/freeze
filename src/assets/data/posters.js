@@ -24,25 +24,13 @@ import logo16 from '../images/LOGOS 2025/THEMOTSO CLEANING COMPANY.jpg'
 import logo17 from '../images/LOGOS 2025/3d glass window logo mockup copy.jpg'
 import logo18 from '../images/LOGOS 2025/AnkelStore Logo.jpg'
 
-import eventPosters from '../images/EVENT POSTERS/top.jpg'
-import eventPoster1 from '../images/EVENT POSTERS/20230325_230535.jpg'
-import eventPoster2 from '../images/EVENT POSTERS/20230430_211923.jpg'
 import eventPoster3 from '../images/EVENT POSTERS/20230529_145222.jpg'
-import eventPoster4 from '../images/EVENT POSTERS/20230831_235729.jpg'
-import eventPoster5 from '../images/EVENT POSTERS/FULL-POSTER.jpg'
-import eventPoster6 from '../images/EVENT POSTERS/IMG-20240316-WA0023.jpg'
 import eventPoster7 from '../images/EVENT POSTERS/IMG-20240316-WA0035.jpg'
-import eventPoster8 from '../images/EVENT POSTERS/IMG-20240316-WA0038.jpg'
-import eventPoster9 from '../images/EVENT POSTERS/IMG-20240316-WA0039.jpg'
 import eventPoster10 from '../images/EVENT POSTERS/IMG-20240316-WA0046.jpg'
 import eventPoster11 from '../images/EVENT POSTERS/IMG-20241023-WA0082.jpg'
 import eventPoster12 from '../images/EVENT POSTERS/PHASE-1.jpg'
-import eventPoster13 from '../images/EVENT POSTERS/Sunday Chillas .jpg'
-import eventPoster14 from '../images/EVENT POSTERS/33.jpg'
 import eventPoster15 from '../images/EVENT POSTERS/WhatsApp Image 2025-05-21 at 12.09.21_5022d963.jpg'
 import eventPoster16 from '../images/EVENT POSTERS/WhatsApp Image 2025-05-21 at 12.09.21_88e28a05.jpg'
-
-import soccerPoster from '../images/SOCCER POSTER/matchposter.jpg'
 import soccerPoster1 from '../images/SOCCER POSTER/20240725_203723.jpg'
 import soccerPoster2 from '../images/SOCCER POSTER/IMG-20241003-WA0172.jpg'
 import soccerPoster3 from '../images/SOCCER POSTER/32.jpg'
@@ -50,15 +38,13 @@ import soccerPoster4 from '../images/SOCCER POSTER/c675588f.jpg'
 import soccerPoster5 from '../images/SOCCER POSTER/matchday.jpg'
 
 import businessPoster from '../images/BUSINESS POSTER/marvelous.jpg'
-import businessPoster1 from '../images/BUSINESS POSTER/20230202_215632_100112.jpg'
-import businessPoster2 from '../images/BUSINESS POSTER/20231025_220655.jpg'
 import businessPoster3 from '../images/BUSINESS POSTER/C&S COLLECTION POSTER copy.jpg'
 import businessPoster4 from '../images/BUSINESS POSTER/Gamula Technical Services.jpg'
 import businessPoster5 from '../images/BUSINESS POSTER/IMG-20240211-WA0011.jpg'
 import businessPoster6 from '../images/BUSINESS POSTER/IMG-20241117-WA0014.jpg'
 import businessPoster7 from '../images/BUSINESS POSTER/MREIKS BAKERY copy.jpg'
 import businessPoster8 from '../images/BUSINESS POSTER/Sesfikile Uber Poster.jpg'
-import businessPoster9 from '../images/BUSINESS POSTER/ICE BLOCK.jpg'
+
 import businessPoster10 from '../images/BUSINESS POSTER/IMG-20250723-WA0024.jpg'
 import businessPoster11 from '../images/BUSINESS POSTER/IMG-20250723-WA0022.jpg'
 
@@ -74,27 +60,20 @@ import artCover1 from '../images/ART COVER/20241110_050427.jpg'
 import artCover2 from '../images/ART COVER/IMG-20240316-WA0045.jpg'
 import artCover3 from '../images/ART COVER/diammakatsa.jpg'
 import artCover4 from '../images/ART COVER/mygod.jpg'
-import artCover5 from '../images/ART COVER/IMG-20250723-WA0021.jpg'
-
-
 
 import twenystposters from '../images/21ST POSTERS/21ST-POSTER-FOR-DELIWE.jpg'
 import twenystposter1 from '../images/21ST POSTERS/21st-Poster.jpg'
 import twenystposter3 from '../images/21ST POSTERS/20231115_195506.jpg'
 import twenystposter4 from '../images/21ST POSTERS/20240731_220030.jpg'
-import twenystposter5 from '../images/21ST POSTERS/received_6539207959527335.jpg'
 
 import Portraits from '../images/PORTRAITS/IMG-20250626-WA0036.jpg'
 import Portrait1 from '../images/PORTRAITS/IMG-20250723-WA0031.jpg'
-import Portrait2 from '../images/PORTRAITS/momo.jpg'
-import Portrait3 from '../images/PORTRAITS/IMG-20250723-WA0033.jpg'
-import Portrait4 from '../images/PORTRAITS/IMG-20250723-WA0032.jpg'
+
 import Portrait6 from '../images/PORTRAITS/levandal.jpg'
-import Portrait7 from '../images/PORTRAITS/IMG-20250723-WA0034.jpg'
+
 import Portrait8 from '../images/PORTRAITS/IMG-20250723-WA0035.jpg'
 import Portrait9 from '../images/PORTRAITS/IMG-20250723-WA0036.jpg'
-import Portrait10 from '../images/PORTRAITS/IMG-20250723-WA0037.jpg'
-import Portrait11 from '../images/PORTRAITS/IMG-20250723-WA0039.jpg'
+
 import Portrait12 from '../images/PORTRAITS/IMG-20250723-WA0040.jpg'
 
 
@@ -127,18 +106,7 @@ export const posters = [
         image: logos,
         type: "Logo",
     },
-    {
-        id: 5,
-        project: "Event Posters",
-        image: eventPosters,
-        type: "Event Posters",
-    },
-    {
-        id: 6,
-        project: "Soccer Posters",
-        image: soccerPoster,
-        type: "Soccer Posters",
-    },
+
     {
         id: 7,
         project: "Business Posters",
@@ -259,60 +227,21 @@ export const posters = [
         image: logo16,
         type: "Logo",
     },
-    {
-        id: 27,
-        project: "Event Posters",
-        image: eventPoster1,
-        type: "Event Posters",
-    },
-    {
-        id: 28,
-        project: "Event Posters",
-        image: eventPoster2,
-        type: "Event Posters",
-    },
+
     {
         id: 29,
         project: "Event Posters",
         image: eventPoster3,
         type: "Event Posters",
     },
-    {
-        id: 30,
-        project: "Event Posters",
-        image: eventPoster4,
-        type: "Event Posters",
-    },
-    {
-        id: 31,
-        project: "Event Posters",
-        image: eventPoster5,
-        type: "Event Posters",
-    },
-    {
-        id: 32,
-        project: "Event Posters",
-        image: eventPoster6,
-        type: "Event Posters",
-    },
+
     {
         id: 33,
         project: "Event Posters",
         image: eventPoster7,
         type: "Event Posters",
     },
-    {
-        id: 34,
-        project: "Event Posters",
-        image: eventPoster8,
-        type: "Event Posters",
-    },
-    {
-        id: 35,
-        project: "Event Posters",
-        image: eventPoster9,
-        type: "Event Posters",
-    },
+
     {
         id: 36,
         project: "Event Posters",
@@ -331,12 +260,7 @@ export const posters = [
         image: eventPoster12,
         type: "Event Posters",
     },
-    {
-        id: 39,
-        project: "Event Posters",
-        image: eventPoster13,
-        type: "Event Posters",
-    },
+
     {
         id: 40,
         project: "Soccer Posters",
@@ -349,18 +273,7 @@ export const posters = [
         image: soccerPoster2,
         type: "Soccer Posters",
     },
-    {
-        id: 42,
-        project: "Business Posters",
-        image: businessPoster1,
-        type: "Business Posters",
-    },
-    {
-        id: 43,
-        project: "Business Posters",
-        image: businessPoster2,
-        type: "Business Posters",
-    },
+
     {
         id: 44,
         project: "Business Posters",
@@ -421,24 +334,7 @@ export const posters = [
         image: twenystposter1,
         type: "21st Posters",
     },
-    {
-        id: 52,
-        project: "21st Posters",
-        image: twenystposter3,
-        type: "21st Posters",
-    },
-    {
-        id: 53,
-        project: "21st Posters",
-        image: twenystposter4,
-        type: "21st Posters",
-    },
-    {
-        id: 54,
-        project: "21st Posters",
-        image: twenystposter5,
-        type: "21st Posters",
-    },
+
     {
         id: 55,
         project: "Art Covers",
@@ -463,18 +359,7 @@ export const posters = [
         image: artCover4,
         type: "Art Covers",
     },
-    {
-        id: 84,
-        project: "Art Covers",
-        image: artCover5,
-        type: "Art Covers",
-    },
-    {
-        id: 57,
-        project: "Business Posters",
-        image: businessPoster9,
-        type: "Business Posters",
-    },
+
     {
         id: 58,
         project: "Portraits",
@@ -487,30 +372,8 @@ export const posters = [
         image: Portrait1,
         type: "Portraits",
     },
-    {
-        id: 60,
-        project: "Portraits",
-        image: Portrait2,
-        type: "Portraits",
-    },
-    {
-        id: 61,
-        project: "Portraits",
-        image: Portrait3,
-        type: "Portraits",
-    },
-    {
-        id: 62,
-        project: "Portraits",
-        image: Portrait4,
-        type: "Portraits",
-    },
-    {
-        id: 63,
-        project: "Portraits",
-        image: Portrait7,
-        type: "Portraits",
-    },
+
+
     {
         id: 64,
         project: "Portraits",
@@ -529,18 +392,7 @@ export const posters = [
         image: Portrait9,
         type: "Portraits",
     },
-    {
-        id: 76,
-        project: "Portraits",
-        image: Portrait10,
-        type: "Portraits",
-    },
-    {
-        id: 77,
-        project: "Portraits",
-        image: Portrait11,
-        type: "Portraits",
-    },
+
     {
         id: 78,
         project: "Portraits",
@@ -573,12 +425,7 @@ export const posters = [
         type: "Merch",
 
     },
-    {
-        id: 69,
-        project: "Event Posters",
-        image: eventPoster14,
-        type: "Event Posters",
-    },
+
     {
         id: 70,
         project: "Event Posters",

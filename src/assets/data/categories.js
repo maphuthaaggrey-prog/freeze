@@ -47,13 +47,13 @@ export const categories = [
         type: "Business Posters",
         description: `Professional posters for your business. Clean, modern, and effective messaging`,
     },
-    {
-        id: 6,
-        project: "Booking Posters",
-        image: bookingPosters,
-        type: "Booking Posters",
-        description: `A showcase of posters designed for music bookings. Catchy and attention-grabbing`,
-    },
+  //  {
+   //     id: 6,
+   //     project: "Booking Posters",
+   //     image: bookingPosters,
+   //     type: "Booking Posters",
+    //    description: `A showcase of posters designed for music bookings. Catchy and attention-grabbing`,
+   // },
     {
         id: 7,
         project: "Art Covers",
@@ -63,7 +63,7 @@ export const categories = [
     },
     {
         id: 8,
-        project: "21st Posters",
+        project: "Birthday Posters",
         image: twenystposters,
         type: "21st Posters",
         description: `Posters we made for epic 21st birthday parties. Perfect for celebrations`,
