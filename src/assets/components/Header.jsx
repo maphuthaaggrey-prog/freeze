@@ -25,8 +25,8 @@ const Header = () => {
                             </svg>
                             </button>
                         </li>
-                        <li onClick={toggleMenu}><Link to="/designs">Designs</Link></li>
-                        <li onClick={toggleMenu}><Link to="/music">Music</Link></li>
+                        <li onClick={toggleMenu}><Link to="/">Home</Link></li>
+                        <li onClick={toggleMenu}><Link to="/designs">Graphic Designs</Link></li>
                         <li onClick={toggleMenu}><Link to="/about">Respect My Hustle</Link></li>
                         <li onClick={toggleMenu}><Link to="/contact">Contact Us</Link></li>
                     </ul>
